@@ -17,7 +17,7 @@ View
 ----
 
 * **Resizeable window:** allow the 86Box window to be freely resized. Unchecking this option will return the window to its normal size.
-* **Remember size & position:** automatically save the size and position of the 86Box window to the virtual machine configuration file.
+* **Remember size & position:** automatically save the size and position of the 86Box window to the emulated machine's configuration file.
 * **Renderer:** select a graphical renderer for the emulated display. *SDL (Hardware)* is recommended, but it may not work on some host systems, where *SDL (Software)* is the best option.
 * **Force 4:3 display ratio:** stretch the emulated display to a 4:3 aspect ratio, independently of the emulated machine's screen resolution.
 * **Window scale factor:** scale the emulated display to half (0.5x), normal (1x), 50% larger (1.5x) or double (2x) sizes.
@@ -50,9 +50,10 @@ Tools
 * **Settings:** open the :doc:`Settings <../settings/index>` window.
 * **Update status bar icons:** enable the activity lights on :doc:`status bar <statusbar>` icons. Unchecking this option may improve emulation performance on low-end host systems.
 * **Enable Discord integration:** enable Discord Rich Presence. Other Discord users will know that you're running 86Box, as well as the emulated machine's name, model and CPU.
-* **Take screenshot:** take a screenshot of the emulated display. Screenshots are saved as PNG images in the ``screenshots`` directory.
 
-.. note:: Discord integration will not be available if the Discord desktop app is not running, or if the ``discord_game_sdk.dll`` library is missing from the 86Box directory.
+.. note:: Discord integration will not be available if the Discord desktop app is not running, or if the included ``discord_game_sdk.dll`` file is missing from the 86Box directory.
+
+* **Take screenshot:** take a screenshot of the emulated display. Screenshots are saved as PNG images in the ``screenshots`` directory.
 
 Help
 ----
